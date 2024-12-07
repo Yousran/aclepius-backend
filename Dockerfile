@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-ENV PORT=3000
+ENV PORT=8080
 
 ENV MODEL_URL='https://storage.googleapis.com/bucket-submissionmlgc-amyusran/model.json'
 
